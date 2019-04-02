@@ -3,8 +3,13 @@ console.log("a")
 let bar		= document.querySelectorAll('#bar')
 	oval	= document.querySelectorAll('g#Oval')
 	text	= document.querySelectorAll(".years")
+	projectToggle = document.querySelectorAll('.projectDetail_toggle')
+	project = document.querySelectorAll(".project img")
+	open = document.querySelector(".projectOpen")
 
 
+
+// timeline for About page
 oval.forEach((e,index)=> e.addEventListener("click", function(){
 	if(bar[index].style.display == "block")
 	{
@@ -15,4 +20,13 @@ oval.forEach((e,index)=> e.addEventListener("click", function(){
 		bar[index].style.display = "block"
 	}
 	
+}))
+
+
+// open projects for Projects Page
+project.forEach((e,index)=>e.addEventListener("click",function()
+{
+
+	projectToggle[index].classList.toggle("projectOpen")
+
 }))

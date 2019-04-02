@@ -110,13 +110,6 @@
 	{
 		display: none;
 	}
-
-	.blue:hover
-	{
-		fill: #0086CE;
-		transition: .5s;
-	}
-	
 	
 	.volunteer .promoText h2
 	{
