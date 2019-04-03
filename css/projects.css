@@ -143,7 +143,7 @@ box-shadow: 2px 2px 6px 0px rgba(0,0,0,.3);
 	{
 		max-width: 10px;
 		margin: 0;
-		height: 300px;
+		height: 350px;
 		bottom: 0px;
 		padding: 40px;
 		left: -50px;
@@ -162,13 +162,12 @@ box-shadow: 2px 2px 6px 0px rgba(0,0,0,.3);
 	{
 		max-width: 10px;
 		margin: 0;
-		height: 300px;
 		bottom: 0px;
 		padding: 40px;
 		left: -50px;
 		left: 0;
 		max-width: 300px;
-		height: 300px;
+		height: 350px;
 		transition: .5s;
 	}
 }
