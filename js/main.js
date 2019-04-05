@@ -1,3 +1,5 @@
+(()=>{
+
 console.log("a")
 
 let bar		= document.querySelectorAll('#bar')
@@ -6,7 +8,16 @@ let bar		= document.querySelectorAll('#bar')
 	projectToggle = document.querySelectorAll('.projectDetail_toggle')
 	project = document.querySelectorAll(".project img")
 	open = document.querySelector(".projectOpen")
+	menuBar = document.querySelector(".menuBar")
+	mobileNav = document.querySelector(".mobileNav")
 
+
+menuBar.addEventListener('click', function(){
+	mobileNav.classList.toggle("mobileNav_open")
+	
+
+	
+})
 
 
 // timeline for About page
@@ -30,3 +41,7 @@ project.forEach((e,index)=>e.addEventListener("click",function()
 	projectToggle[index].classList.toggle("projectOpen")
 
 }))
+
+
+
+})()

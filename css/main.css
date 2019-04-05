@@ -2,9 +2,13 @@
 {
 	display: none;
 }
+
+
 body
 {
 	background:#fafafa;
+	overflow-x: hidden;
+	
 }
 header
 {
@@ -12,6 +16,9 @@ header
 	background-position: center;
 	background-size: cover;
 	height: 100%;
+
+
+	
 }
 
 a,h1,h2,h3,h4,li
@@ -20,9 +27,14 @@ a,h1,h2,h3,h4,li
 	text-align: center;
 }
 
-a
+nav a
 {
 	opacity: .7;
+}
+
+a
+{
+	cursor: pointer;
 }
 
 a:active
@@ -34,13 +46,27 @@ a:active
 /*CSS For Every Pages*/
 
 
+.borderRadius
+{
+	border-radius: 5px;
+}
 
 .boxShadow
 {
-	-webkit-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.24);
--moz-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.24);
-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.24);
+	-webkit-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.5);
 }
+
+.shadowHover:hover
+{
+	-webkit-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.5);
+box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+transition: .2s;
+border-radius: 5px;
+}
+
 .top
 {
 	padding: 10px;
@@ -70,34 +96,98 @@ box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.24);
 }
 
 
-button
+.button
 {
-	border-radius: 50px;
+	border-radius: 5px;
 	background: linear-gradient(180deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
 	color: white;
 	outline: none;
 	
 }
 
-button:active
+.donate
+{
+	padding: 20px 60px;
+	font-size: 15px;
+}
+
+input,textarea
+{
+	outline: none;
+}
+
+.button:active
 {
 	background: linear-gradient(0deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
 	box-shadow: none;
 
 }
 
-.menu
+.menuBar
 {
 	display: flex;
 	flex-direction: column;
 }
-.menu span
+.menuBar span
 {
 	margin: 2px;
 	padding: 2px 18px;
 	background: linear-gradient(180deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
 }
 
+.mobileNav
+{
+	background: rgba(43,208,148,0.9);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	right: -100%;
+	transition: .5s;
+	height: 100vh;
+/*	display: none;*/
+
+}
+
+.mobileNav_open
+{
+	right: 0;
+	display: flex;
+}
+
+.mobileNav ul
+{
+		padding: 4vh 0;
+		width: 90%;
+}
+
+.mobileNav li
+{
+	text-align: right;
+	margin: 10px 0;
+	font-size: 7vh;
+	font-weight: bold;
+}
+
+.mobileNav li a:hover
+{
+	color: #232323;
+	transition: .2s;
+	opacity: .8;
+}
+
+.mobileNav .donate
+{
+	display: block;
+
+}
+
+.mobileNav li a:active
+{
+	opacity: 1
+}
 
 .promo
 {
@@ -110,6 +200,7 @@ button:active
 {
 	display: flex;
 	align-items: center;
+	min-width: 100vw;
 }
 .title h3
 {
@@ -125,7 +216,7 @@ button:active
 	background: white;
 	padding: 10vw 1px;
 	position: relative;
-	left: 50%;
+	left: 49.5%;
 }
 .title p
 {
@@ -209,6 +300,11 @@ nav li
 
 }
 
+.promoDescription
+{
+	color: #4a4a4a;
+}
+
 .marginSection
 {
 	margin: 40px 10px;
@@ -221,9 +317,36 @@ nav li
 
 
 /*Home Page Starts Here*/
+
+.slideShow
+{
+	display: flex;
+	position: relative;
+
+}
+
 .slider
 {
-	display: none;
+display: flex;
+justify-content: center;
+
+}
+
+.slider span
+{
+background: white;
+border-radius: 100px;
+width: 20px;
+height: 20px;
+margin: 100px 20px 0 20px;
+
+}
+
+
+.slider .sliderActive
+{
+	background: #FFC268;
+	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.3);
 }
 
 
@@ -355,31 +478,33 @@ nav li
 
 .product
 {
-	background: black;
-	max-width: 400px;
+	max-width: 300px;
 	flex: 1 1 auto;
-	margin:40px;
+	margin:40px 20px;
+	transition: .2s;
 
 }
 
+
 .product img
 {
-	background: #4A4A4A;
 	width: 100%;
+	margin: 0;
 
 }
 
 .productDescription
 {
 	background: white;
+	padding: 20px;
 }
 
 .productDescription h4
 {
 	color: #2BD094;
 	text-align: left;
-	padding: 20px;
 	font-weight: normal;
+	margin: 10px 0;
 }
 
 .productDescription h3
@@ -387,17 +512,16 @@ nav li
 	color: #2BD094;
 	text-align: left;
 	font-size: 25px;
-	padding: 0 20px;
+	margin: 10px 0;
 }
 
 .productDescription p
 {
 	color: black;
 	text-align: left;
-	padding: 20px;
-	padding-bottom: 40px;
 	line-height: 2em;
 	font-size: 80%;
+	margin: 10px 0;
 }
 
 .partnerIcon
@@ -439,22 +563,7 @@ nav li
 		margin-top: 100px;
 	}
 
-	.slider
-	{
-	display: flex;
-	justify-content: center;
-
-	}
-
-	.slider span
-	{
-	background: white;
-	border-radius: 100px;
-	width: 20px;
-	height: 20px;
-	margin: 100px 20px 0 20px;
-
-	}
+	
 
 	.box p
 	{
@@ -540,7 +649,12 @@ nav li
 		{
 		padding:0 3vw;
 		font-size: 16px;
-		}	
+		}
+
+		.donate
+		{
+			display: block;
+		}
 
 
 		.desktopNav a
@@ -550,7 +664,8 @@ nav li
 
 		.desktopNav a:hover
 		{
-			color: black;
+			color: #2BD094;
+			transition: .2s;
 		}
 
 		.title
@@ -566,17 +681,16 @@ nav li
 		}
 
 
-		.donate
-		{
-			display: block;
-			padding: 20px 60px;
-			font-size: 15px;
-		}
 		
 
-		.menu
+		.menuBar
 		{
 			display: none;
+		}
+
+		.mobileNav
+		{
+			right: -100%;
 		}
 
 		

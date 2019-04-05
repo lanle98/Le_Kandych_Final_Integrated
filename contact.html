@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,800" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1 class="hidden">Header</h1>
+		<div class="top">
+			<section class="logo">
+				<h2 class="hidden">Logo</h2>
+				<a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+			</section>
+			<section class="menuBar">
+				<h2 class="hidden">Menu Bar</h2>
+				<span></span>
+				<span></span>
+				<span></span>
+			</section>
+
+			<nav class="desktopNav">
+				<h2 class="hidden">Desktop Navigation</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<a class="button donate boxShadow">
+				Donate
+			</a>
+		</div>
+
+		<div class="mobileNav">
+					<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					</ul>
+
+			<a class="button donate boxShadow">
+				Donate
+			</a>
+		</div>
+
+		
+		<h2 class="titlePage aboutPage">Contact</h2>
+	</header>
+
+<div class="container">
+	<section class="info marginSection boxes">
+		<div class="box">
+			<img src="images/contact/address.svg" alt="address">
+			<p>790 Southdale Road East,
+			London ontario </p>
+		</div>
+		<div class="box">
+			<img src="images/contact/phone.svg" alt="phone">
+			<p>519 - 614 - 1218</p>
+		</div>
+		<div class="box">
+			<img src="images/contact/facebook.svg" alt="facebook">
+			<p></p>
+		</div>
+	</section>
+
+	<section id="mapArea">
+		<h2 class="hidden">Map Area</h2>
+		<div class="filterMap"></div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11682.207362229577!2d-81.21939!3d42.945574!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3b01c9e9983%3A0x84558efdb9f3a3a1!2s790+Southdale+Rd+E%2C+London%2C+ON+N6E+1A8!5e0!3m2!1sen!2sca!4v1549496645803" width="100%" height="550" style="border:0" allowfullscreen></iframe>
+	</section>
+
+	<section class="contactUs marginSection">
+		<div class="promoText">
+		<h2>Contact Us</h2>
+		</div>
+
+		<div class="form boxes">
+		<div class="firstnames box">
+		<form class="contactForm" action="form.php" method="post"><label>First Name</label>
+		  <input class="fillIn"  type="text" required id="firstname" name="fullName" size="30" placeholder="Enter your First Name"></form>
+		</div>
+
+		<div class="lastnames box">
+		<form class="contactForm" action="form.php" method="post"><label>Last Name</label>
+		  <input class="fillIn" type="text" required id="lastname" name="fullName" size="30" placeholder="Enter your Last Name"></form>
+		</div>
+
+
+		<div class="email box">
+		<form class="contactForm" action="form.php" method="post">
+			<label  for="email">Email</label>
+		 <input class="fillIn" type="email" required id="email" size="30" placeholder="Enter your Email"></form>
+		</div>
+
+
+		<div class="comments">
+		<form class="contactForm" action="form.php" method="post"><label for="comments">Comments:</label>
+		  <textarea class="fillIn" name="comments" placeholder="Send us some message" id="comments" required cols="30" rows="8"></textarea></form>
+		</div>
+		</div>
+
+
+
+		<a class="button seemore boxShadow">
+		Send
+		</a>
+</section>
+</div>
+
+<footer>
+	<h1 class="hidden">Footer</h1>
+	<div class="footer">
+	<section class="logo logoFooter">
+			<h2 class="hidden">Logo</h2>
+			<a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+	</section>
+	<nav>
+		<h2 class="hidden">Footer Navigation</h2>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="shop.html">Shop</a></li>
+			<li><a href="contact.html">Contact</a></li>
+
+		</ul>
+	</nav>
+	</div>
+	<div class="socialMedia">
+		<a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+	</div>
+	<div class="copyRight">
+		<h2>Copyright</h2>
+		<p>Carolinian Canada - Carolinian Canada’s diverse network advances a strategic ‘Big Picture’</p>
+	</div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

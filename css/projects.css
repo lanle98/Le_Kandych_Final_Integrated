@@ -33,6 +33,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 
 .promoImg img
@@ -40,12 +41,12 @@
 	width: 100%;
 	object-fit: cover;
 	height: 50vw;
-	transition: .2s;
 }
 
 .promoImg h3
 {
 	position: absolute;
+	font-size: 2em;
 }
 
 .project p
@@ -60,7 +61,6 @@
 	background: #fafafa;
 	width: 70%;
 	padding: 20px;
-	overflow: hidden;
 	position: relative;
 	/*bottom: 0px;*/
 	bottom: 40px;
@@ -83,25 +83,15 @@
 	position: relative;
 }
 
-.project:hover img
-{
-	-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,.5);
--moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,.5);
-box-shadow: 2px 2px 6px 2px rgba(0,0,0,.5);
-}
 
-.project:hover .projectDetail_toggle
-{
-	-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,.3);
--moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,.3);
-box-shadow: 2px 2px 6px 0px rgba(0,0,0,.3);
-}
+
 
 .scroll
 {
 	height: 100%;
-	overflow: hidden;
+	overflow: scroll;
 	position: relative;
+	padding-right: 20px;
 }
 
 
@@ -114,8 +104,7 @@ box-shadow: 2px 2px 6px 0px rgba(0,0,0,.3);
 {
 	width: 500px;
 }
-	
-}
+
 
 @media screen and (min-width: 1024px)
 {
@@ -128,14 +117,14 @@ box-shadow: 2px 2px 6px 0px rgba(0,0,0,.3);
 	.promoImg
 	{
 		width: 60%;
+		height: 500px;
 	}
 
 	.promoImg img
 	{
 		
 		object-fit: cover;
-		height: 40%;
-		max-height: 500px;
+		height: 100%;
 		min-height: 400px;
 	}
 
@@ -166,8 +155,7 @@ box-shadow: 2px 2px 6px 0px rgba(0,0,0,.3);
 		padding: 40px;
 		left: -50px;
 		left: 0;
-		max-width: 300px;
-		height: 350px;
+		max-width: 350px;
 		transition: .5s;
 	}
 }
