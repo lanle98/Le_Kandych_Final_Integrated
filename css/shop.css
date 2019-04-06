@@ -1,7 +1,7 @@
 .productSection
 {
 	flex-wrap: wrap;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
 	
 }
 
@@ -42,7 +42,7 @@
 	.product2
 	{
 		position: relative;
-		top: 100px;
+		top: 90px;
 	}
 
 }

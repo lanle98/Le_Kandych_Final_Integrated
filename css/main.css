@@ -237,6 +237,36 @@ input,textarea
 	opacity: .8;
 }
 
+.meeting
+{
+	max-width: 80%;
+	margin: 0 auto;
+
+	
+}
+
+.meeting h3
+{
+	text-align: left;
+	left: 0;
+}
+
+.meeting ul li
+{
+	text-align: left;
+	font-size: 2vw;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.meeting ul li::before
+{
+	content: "•";
+	font-size: 2em;
+	margin-right: 10px;
+}
+
 
 footer
 {
@@ -490,6 +520,7 @@ margin: 100px 20px 0 20px;
 {
 	width: 100%;
 	margin: 0;
+	object-fit: cover;
 
 }
 
@@ -531,6 +562,11 @@ margin: 100px 20px 0 20px;
 	justify-content: center;
 	margin: 20px;
 }
+
+.slider
+	{
+		display: none;
+	}
 
 
 
@@ -634,6 +670,11 @@ margin: 100px 20px 0 20px;
 	.productDescription h3
 	{
 		font-size: 40px;
+	}
+
+	.slider
+	{
+		display: flex;
 	}
 
 }

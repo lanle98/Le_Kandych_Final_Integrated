@@ -6,7 +6,8 @@ let bar		= document.querySelectorAll('#bar')
 	oval	= document.querySelectorAll('g#Oval')
 	text	= document.querySelectorAll(".years")
 	projectToggle = document.querySelectorAll('.projectDetail_toggle')
-	project = document.querySelectorAll(".project img")
+	promoImg = document.querySelectorAll(".promoImg")
+	project = document.querySelectorAll(".project")
 	open = document.querySelector(".projectOpen")
 	menuBar = document.querySelector(".menuBar")
 	mobileNav = document.querySelector(".mobileNav")
@@ -34,11 +35,13 @@ oval.forEach((e,index)=> e.addEventListener("click", function(){
 }))
 
 
+
 // open projects for Projects Page
 project.forEach((e,index)=>e.addEventListener("click",function()
-{
-
+{	
+	project[index].classList.toggle("projectHover")
 	projectToggle[index].classList.toggle("projectOpen")
+
 
 }))
 

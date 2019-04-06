@@ -43,6 +43,7 @@
 	height: 50vw;
 }
 
+
 .promoImg h3
 {
 	position: absolute;
@@ -55,6 +56,8 @@
 
 
 }
+
+
 
 .projectDetail_toggle
 {
@@ -108,6 +111,12 @@
 
 @media screen and (min-width: 1024px)
 {
+
+	.projectHover:hover .projectDetail_toggle
+	{
+		left: -80px;
+	}
+
 	.project
 	{
 		flex-direction: row;
@@ -134,8 +143,8 @@
 		margin: 0;
 		height: 350px;
 		bottom: 0px;
-		padding: 40px;
-		left: -50px;
+		padding: 40px 60px;
+		left: -100px;
 	}
 
 	.scroll
@@ -153,9 +162,8 @@
 		margin: 0;
 		bottom: 0px;
 		padding: 40px;
-		left: -50px;
 		left: 0;
-		max-width: 350px;
+		max-width: 30%;
 		transition: .5s;
 	}
 }
