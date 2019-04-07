@@ -1,0 +1,113 @@
+.promoText
+{
+	margin: 0 auto;
+	max-width: 80vw;
+}
+
+.promoText h2
+{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.container
+{
+	max-width: 4000px;
+	margin: 0 auto;
+}
+
+
+.boxes
+{
+	justify-content: center;
+}
+
+.box
+{
+	max-width: 320px;
+	height: 320px;
+	margin: 8px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+
+
+.eventsSection img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+
+
+}
+
+
+
+.gradient
+{
+	position: absolute;
+	background-image: linear-gradient(to bottom, #37cf95, #00c1b6, #00b0ce, #009bd5, #3a84ca);
+	opacity: .5;
+	width: 100%;
+	height: 100%;
+}
+
+.eventName
+{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 100px;
+}
+
+.eventName h3
+{
+	font-size: 40px;
+	text-align: justify;
+}
+
+.seemore
+{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	padding: 20px 40px;
+	font-size: 15px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+	
+
+	.box
+	{
+		min-width: 350px;
+		height: 350px;
+	}
+	
+	.promoText h2
+	{
+		font-size: 40px;
+	}
+
+	.eventTop
+	{
+		position: absolute;
+		transform: translateY(100%);
+		transition: .2s;
+		width: 100%;
+		height: 100%;
+	}
+
+	.box:hover .eventTop
+	{
+		transform: translateY(0);
+	}
+
+}

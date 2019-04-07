@@ -1,0 +1,789 @@
+.hidden
+{
+	display: none;
+}
+
+
+body
+{
+	background:#fafafa;
+	overflow-x: hidden;
+	
+}
+header
+{
+	background: url(../images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+
+
+	
+}
+
+a,h1,h2,h3,h4,li
+{
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a
+{
+	opacity: .7;
+}
+
+a
+{
+	cursor: pointer;
+}
+
+a:active
+{
+	opacity: 1;
+}
+
+
+/*CSS For Every Pages*/
+
+
+.borderRadius
+{
+	border-radius: 5px;
+}
+
+.boxShadow
+{
+	-webkit-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.5);
+}
+
+.shadowHover:hover
+{
+	-webkit-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.5);
+box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+transition: .2s;
+border-radius: 5px;
+}
+
+.top
+{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fafafa;
+
+}
+
+
+.desktopNav
+{
+	display: none;
+}
+
+
+.logo img
+{
+	width: 50px;
+	height: 50px;
+}
+
+.donate
+{
+	display: none;
+}
+
+
+.button
+{
+	border-radius: 5px;
+	background: linear-gradient(180deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
+	color: white;
+	outline: none;
+	
+}
+
+.donate
+{
+	padding: 20px 60px;
+	font-size: 15px;
+}
+
+input,textarea
+{
+	outline: none;
+}
+
+.button:active
+{
+	background: linear-gradient(0deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
+	box-shadow: none;
+
+}
+
+.menuBar
+{
+	display: flex;
+	flex-direction: column;
+}
+.menuBar span
+{
+	margin: 2px;
+	padding: 2px 18px;
+	background: linear-gradient(180deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
+}
+
+.mobileNav
+{
+	background: rgba(43,208,148,0.9);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	right: -100%;
+	transition: .5s;
+	height: 100vh;
+/*	display: none;*/
+
+}
+
+.mobileNav_open
+{
+	right: 0;
+	display: flex;
+}
+
+.mobileNav ul
+{
+		padding: 4vh 0;
+		width: 90%;
+}
+
+.mobileNav li
+{
+	text-align: right;
+	margin: 10px 0;
+	font-size: 7vh;
+	font-weight: bold;
+}
+
+.mobileNav li a:hover
+{
+	color: #232323;
+	transition: .2s;
+	opacity: .8;
+}
+
+.mobileNav .donate
+{
+	display: block;
+
+}
+
+.mobileNav li a:active
+{
+	opacity: 1
+}
+
+.promo
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 80px 0;
+}
+.title
+{
+	display: flex;
+	align-items: center;
+	min-width: 100vw;
+}
+.title h3
+{
+	padding-right: 5%;
+	font-size: 5vw;
+	text-align: right;
+	position: relative;
+	left: 10%;
+	font-weight: 800;
+}
+.title span
+{
+	background: white;
+	padding: 10vw 1px;
+	position: relative;
+	left: 49.5%;
+}
+.title p
+{
+	width: 40%;
+	text-align: left;
+	font-size: 3vw;
+	flex-wrap: wrap;
+	position: absolute;
+	left: 52.5%;
+	font-weight: 200;
+}
+
+.titlePage
+{
+	font-size: 10vw;
+	padding: 15vw;
+	font-weight: bold;
+	opacity: .8;
+}
+
+.meeting
+{
+	max-width: 80%;
+	margin: 0 auto;
+
+	
+}
+
+.meeting h3
+{
+	text-align: left;
+	left: 0;
+}
+
+.meeting ul li
+{
+	text-align: left;
+	font-size: 2vw;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.meeting ul li::before
+{
+	content: "•";
+	font-size: 2em;
+	margin-right: 10px;
+}
+
+
+footer
+{
+	background: #000F0A;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+
+.footer
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+nav li
+{
+	padding: 20px;
+	font-size: 15px;
+}
+
+.socialMedia
+{
+	height: 80px;
+	width: 80px;
+	margin: 0 auto;
+}
+
+.copyRight
+{
+	margin: 20px;
+	opacity: .7;
+}
+
+.copyRight h2
+{
+	font-weight: normal;
+}
+.copyRight p
+{
+	margin: 20px;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+.promoText
+{
+	max-width: 300px;
+}
+
+.promoText h2
+{
+	color: #2BD094;
+	font-size: 30px;
+	text-align: left;
+
+}
+
+.promoDescription
+{
+	color: #4a4a4a;
+}
+
+.marginSection
+{
+	margin: 40px 10px;
+
+	
+}
+
+
+
+
+
+/*Home Page Starts Here*/
+
+.slideShow
+{
+	display: flex;
+	position: relative;
+
+}
+
+.slider
+{
+display: flex;
+justify-content: center;
+
+}
+
+.slider span
+{
+background: white;
+border-radius: 100px;
+width: 20px;
+height: 20px;
+margin: 100px 20px 0 20px;
+
+}
+
+
+.slider .sliderActive
+{
+	background: #FFC268;
+	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+
+
+.container
+{
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+
+.arrow h2::after
+{
+	content: "→";
+	font-size: 40px;
+	margin: 0 20px;
+	color: #2BD094;
+	width: 40px;
+	position: relative; 
+}
+
+.arrow
+{
+	cursor: pointer; 
+}
+
+
+.promoText:hover h2::after
+{
+	margin: 0 30px;
+	transition: .5s;
+}
+
+
+.boxes
+{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	
+}	
+
+.aboutBoxes
+{
+	max-width: 1300px;
+}
+
+.box p
+{
+	text-align: left;
+	padding-left: 20px;
+	color: #2BD094;
+	letter-spacing: 2px;
+	width: 70%;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.box
+{
+	height: 150px;
+	flex: 1 1 300px;	
+}
+
+.about
+{
+	margin: 40px 20px;
+	display: flex;
+	align-items: center;
+}
+
+.about img
+{
+	width: 30%;
+}
+
+.bigBox
+{
+	height: 400px;
+	flex: 1 1 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px;
+}
+
+.bigBox h2
+{
+	font-size: 40px;
+}
+
+.bigBox p
+{
+	padding: 10px;
+}
+
+.events
+{
+
+	background: url(../images/events.jpg)  no-repeat;
+	margin-bottom: 10px;
+	background-position: center;
+	background-size: cover;
+}
+
+.projects
+{
+	background: url(../images/projects.jpg) no-repeat;
+	margin-bottom: 10px;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.seemore
+{
+	padding: 15px 30px;
+	font-size: 12px;
+}
+
+.productSection
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product
+{
+	max-width: 300px;
+	flex: 1 1 auto;
+	margin:40px 20px;
+	transition: .2s;
+
+}
+
+
+.product img
+{
+	width: 100%;
+	margin: 0;
+	object-fit: cover;
+
+}
+
+.productDescription
+{
+	background: white;
+	padding: 20px;
+}
+
+.productDescription h4
+{
+	color: #2BD094;
+	text-align: left;
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+.productDescription h3
+{
+	color: #2BD094;
+	text-align: left;
+	font-size: 25px;
+	margin: 10px 0;
+}
+
+.productDescription p
+{
+	color: black;
+	text-align: left;
+	line-height: 2em;
+	font-size: 80%;
+	margin: 10px 0;
+}
+
+.partnerIcon
+{
+	max-width: 200px;
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.slider
+	{
+		display: none;
+	}
+
+
+
+@media screen and (min-width: 768px) {
+	.logo img
+	{
+		width: 100px;
+		height: 100px;
+	}
+	
+	.titlePage
+	{
+		font-size: 6vw;
+		padding: 15vw;
+		font-weight: bold;
+	}
+	.title p
+	{
+		font-size: 2vw;
+	}
+
+	.marginSection
+	{
+	margin: 60px 40px;
+	
+	}
+
+	.title
+	{
+		margin-top: 100px;
+	}
+
+	
+
+	.box p
+	{
+		font-size: 16px;
+	}
+
+	.bigBox
+	{
+		justify-content: center;
+	}
+	
+	.bigBox
+	{
+		height: 600px;
+	}
+
+	.bigBox p
+	{
+		display: flex;
+		align-items: center;
+		width: 50%;
+		font-size: 20px;
+		line-height: 2em;
+		padding: 20px;
+
+	}
+	
+	nav ul
+	{
+		display: flex;
+	}
+	
+
+	footer nav li
+	{
+		padding: 20px;
+	}
+
+	.promoText h1
+	{
+		font-size: 40px;
+	}
+
+	.productSection
+	{
+		flex-direction: row;
+		justify-content: center;
+	}
+
+
+	.product2
+	{
+			position: relative;
+			top: 80px;
+	}
+
+	.seemore
+	{
+		padding: 20px 60px;
+			font-size: 15px;
+	}
+
+	.product
+	{
+		max-width: 400px;
+	}
+
+	.productDescription h3
+	{
+		font-size: 40px;
+	}
+
+	.slider
+	{
+		display: flex;
+	}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+		.desktopNav
+		{
+			display: flex;
+		}
+
+		nav li
+		{
+		padding:0 3vw;
+		font-size: 16px;
+		}
+
+		.donate
+		{
+			display: block;
+		}
+
+
+		.desktopNav a
+		{
+			color: #232323;
+		}
+
+		.desktopNav a:hover
+		{
+			color: #2BD094;
+			transition: .2s;
+		}
+
+		.title
+		{
+			margin: 0;
+		}
+		
+
+
+		.promo
+		{
+			margin-top: 10vmax;
+		}
+
+
+		
+
+		.menuBar
+		{
+			display: none;
+		}
+
+		.mobileNav
+		{
+			right: -100%;
+		}
+
+		
+		.about img
+		{
+			width: 40%;
+		}
+
+
+		footer
+		{
+			display: block;
+			
+		}
+
+		.partnerBoxes
+		{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.partnerIcon
+		{
+
+			max-width: 120px;
+		}
+
+		.footer
+		{
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 0 40px;
+		}
+
+		.footer nav a
+		{
+			padding: 1vw;
+		}
+
+
+	}
+
+
+@media screen and (min-width: 1440px)
+
+{
+
+	
+
+	.partnerIcon
+	{
+		max-width: 200px;
+	}
+}
+

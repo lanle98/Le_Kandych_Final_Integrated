@@ -1,0 +1,48 @@
+.productSection
+{
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	
+}
+
+.promoText
+{
+	margin: 0 auto;
+	max-width: 80vw;
+}
+
+.promoText h2
+{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.product
+{
+	cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+	
+	.product
+	{
+		max-width: 450px;
+		top: 0;
+	}
+
+	
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.product2
+	{
+		position: relative;
+		top: 90px;
+	}
+
+}

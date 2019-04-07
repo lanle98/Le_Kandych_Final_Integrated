@@ -1,0 +1,176 @@
+
+header
+{
+	background-image: url(../images/hero_projects.jpg)
+}
+
+
+.projectsDescription
+{
+	color: #4a4a4a;
+	line-height: 2.5em;
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.projectSection
+{
+	width: 100%;
+}
+
+.project
+{
+	
+	width: 100%;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-bottom: 20px;
+
+
+}
+
+
+.promoImg
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.promoImg img
+{
+	width: 100%;
+	object-fit: cover;
+	height: 50vw;
+}
+
+
+.promoImg h3
+{
+	position: absolute;
+	font-size: 2em;
+}
+
+.project p
+{
+	color: #4a4a4a;
+
+
+}
+
+
+
+.projectDetail_toggle
+{
+	background: #fafafa;
+	width: 70%;
+	padding: 20px;
+	position: relative;
+	/*bottom: 0px;*/
+	bottom: 40px;
+	height: 20px;
+	z-index: -1;
+	transition: .5s;
+	
+}
+
+.projectOpen
+{
+	background: #fafafa;
+	width: 70%;
+	padding: 20px;
+	overflow: hidden;
+	z-index: -1;
+	transition: .5s;
+	bottom: 0;
+	height: 200px;
+	position: relative;
+}
+
+
+
+
+.scroll
+{
+	height: 100%;
+	overflow: scroll;
+	position: relative;
+	padding-right: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+
+
+.promoText h2
+{
+	width: 500px;
+}
+
+
+@media screen and (min-width: 1024px)
+{
+
+	.projectHover:hover .projectDetail_toggle
+	{
+		left: -80px;
+	}
+
+	.project
+	{
+		flex-direction: row;
+		margin-bottom: 60px;
+	}
+
+	.promoImg
+	{
+		width: 60%;
+		height: 500px;
+	}
+
+	.promoImg img
+	{
+		
+		object-fit: cover;
+		height: 100%;
+		min-height: 400px;
+	}
+
+	.projectDetail_toggle
+	{
+		max-width: 10px;
+		margin: 0;
+		height: 350px;
+		bottom: 0px;
+		padding: 40px 60px;
+		left: -100px;
+	}
+
+	.scroll
+	{
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+
+
+
+	.projectOpen
+	{
+		max-width: 10px;
+		margin: 0;
+		bottom: 0px;
+		padding: 40px;
+		left: 0;
+		max-width: 30%;
+		transition: .5s;
+	}
+}
