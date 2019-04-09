@@ -78,7 +78,7 @@ If you have questions about this event or would like to get involved with other 
 
 
 
-["Rainbow Trout Release",
+["Family Fishing Day",
 
 
 `This year we were pleased to welcome visitors from Chipewas of the Thames First Nation, to tour the trout hatchery and assist us with the release of more than 40,000 rainbow trout.<br>

@@ -98,6 +98,7 @@ border-radius: 5px;
 	background: linear-gradient(180deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
 	color: white;
 	outline: none;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
 	
 }
 
@@ -105,7 +106,7 @@ border-radius: 5px;
 	.donate
 {
 	padding: 20px 60px;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 
@@ -118,6 +119,7 @@ input,textarea
 {
 	background: linear-gradient(0deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
 	box-shadow: none;
+	text-shadow: none;
 
 }
 
@@ -374,6 +376,7 @@ border-radius: 100px;
 width: 10px;
 height: 10px;
 margin: 20px 10px 0 10px;
+cursor: pointer;	
 
 }
 
@@ -556,6 +559,7 @@ margin: 20px 10px 0 10px;
 	text-align: left;
 	font-size: 25px;
 	margin: 10px 0;
+	margin-bottom: 60px;
 }
 
 .productDescription p
@@ -565,6 +569,29 @@ margin: 20px 10px 0 10px;
 	line-height: 2em;
 	font-size: 80%;
 	margin: 10px 0;
+}
+
+.productSeemore
+{
+	color: #2BD094;
+	text-align: right;
+}
+
+.productSeemore::after
+{
+	content: "→";
+	font-size: 20px;
+	margin: 0 10px;
+	right: 0;
+	color: #2BD094;
+	width: 40px;
+	position: relative; 
+}
+
+.product:hover .productSeemore::after
+{
+	right: -10px;
+	transition: .5s;
 }
 
 .partnerIcon

@@ -2,15 +2,17 @@
 
 console.log("a")
 
-let bar		= document.querySelectorAll('#bar')
-	oval	= document.querySelectorAll('g#Oval')
-	text	= document.querySelectorAll(".years")
-	projectToggle = document.querySelectorAll('.projectDetail_toggle')
-	promoImg = document.querySelectorAll(".promoImg")
-	project = document.querySelectorAll(".project")
-	open = document.querySelector(".projectOpen")
-	menuBar = document.querySelector(".menuBar")
-	mobileNav = document.querySelector(".mobileNav")
+let bar			= document.querySelectorAll('#bar')
+	oval		= document.querySelectorAll('g#Oval')
+	text		= document.querySelectorAll(".years")
+	projectToggle 	= document.querySelectorAll('.projectDetail_toggle')
+	promoImg 	= document.querySelectorAll(".promoImg")
+	project 	= document.querySelectorAll(".project")
+	open 		= document.querySelector(".projectOpen")
+	menuBar	 	= document.querySelector(".menuBar")
+	mobileNav 	= document.querySelector(".mobileNav")
+	traa		= document.querySelectorAll(".traa")
+	articles	= document.querySelectorAll(".articles")
 
 
 menuBar.addEventListener('click', function(){
@@ -22,17 +24,17 @@ menuBar.addEventListener('click', function(){
 
 
 // timeline for About page
-oval.forEach((e,index)=> e.addEventListener("click", function(){
-	if(bar[index].style.display == "block")
-	{
-		bar[index].style.display = "none"
-	}
-	else
-	{
-		bar[index].style.display = "block"
-	}
+// oval.forEach((e,index)=> e.addEventListener("click", function(){
+// 	if(bar[index].style.display == "block")
+// 	{
+// 		bar[index].style.display = "none"
+// 	}
+// 	else
+// 	{
+// 		bar[index].style.display = "block"
+// 	}
 	
-}))
+// }))
 
 
 
@@ -41,6 +43,14 @@ project.forEach((e,index)=>e.addEventListener("click",function()
 {	
 	project[index].classList.toggle("projectHover")
 	projectToggle[index].classList.toggle("projectOpen")
+
+
+}))
+
+
+traa.forEach((e,index)=>e.addEventListener("click",function()
+{	
+	articles[index].classList.toggle("articlesToggle")
 
 
 }))
