@@ -1,3 +1,9 @@
+.promo
+{
+	background-image: url(../images/shop/hero_shop.png)
+}
+
+
 .productSection
 {
 	flex-wrap: wrap;
@@ -17,11 +23,6 @@
 	font-weight: lighter;
 	font-size: 20px;
 	line-height: 1.5em;
-}
-
-.product
-{
-	cursor: pointer;
 }
 
 
