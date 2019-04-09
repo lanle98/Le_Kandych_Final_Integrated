@@ -1,3 +1,9 @@
+header
+{
+	background-image: url(../images/shop/hero_shop.png)
+}
+
+
 .productSection
 {
 	flex-wrap: wrap;
