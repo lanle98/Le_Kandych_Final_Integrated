@@ -1,5 +1,5 @@
 
-header
+.promo
 {
 	background-image: url(../images/hero_about.png)
 }
@@ -24,12 +24,18 @@ header
 	border-bottom: 1px solid #2BD094;
 }
 
-.newsletter img,.timelineHor
+.timelineVer,.timelineHor
 {
 
 	width:	80%;
-	margin: 40px auto;
+	margin: 20px auto;
+	height: 80%;
 
+}
+
+.timelineVer a
+{
+	color: none;
 }
 
 .timelineHor
@@ -50,7 +56,6 @@ header
 {
 	width: 150px;
 	height: 150px;
-	background: #4a4a4a;
 	border-radius: 100px;
 	margin: 10px;
 }
@@ -104,20 +109,20 @@ header
 }
 
 @media screen and (min-width: 768px) {
+
 	.timelineVer
 	{
-		display: none;
+		width:	40%;
 	}
+
+
+
 
 	.timelineHor
 	{
 		display: block;
 	}
 
-	#bar
-	{
-		display: none;
-	}
 	
 	.volunteer .promoText h2
 	{

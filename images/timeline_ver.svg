@@ -1,90 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>About</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/about.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,800" rel="stylesheet">
-</head>
-<body>
-	<header>
-		<h1 class="hidden">Header</h1>
-		<div class="top">
-			<section class="logo">
-				<h2 class="hidden">Logo</h2>
-				<a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
-			</section>
-			<section class="menuBar">
-				<h2 class="hidden">Menu Bar</h2>
-				<span></span>
-				<span></span>
-				<span></span>
-			</section>
-
-			<nav class="desktopNav">
-				<h2 class="hidden">Desktop Navigation</h2>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="events.html">Events</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="shop.html">Shop</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-
-			<a class="button donate boxShadow">
-                Donate
-            </a>
-		</div>
-
-        <div class="mobileNav">
-                    <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    </ul>
-
-            <a class="button donate boxShadow">
-                Donate
-            </a>
-        </div>
-
-        
-		<h2 class="titlePage aboutPage promo">About Us</h2>
-	</header>
-
-	<div class="container">
-        <h1 class="hidden">Container</h1>
-		<section class="aboutSection  marginSection">
-			<div class="promoText">
-				<h2>Our Story</h2>
-				
-			</div>
-			<p class="aboutDescription">In the spring of 1986 the TRAA was formed by anglers concerned with the state of the fishery in the Thames River watershed, particularly the dwindling smallmouth bass population in the North Thames River.
-
-The TRAA is not a fishing club, although most members are anglers and share fishing as a common interest. We are a "hands on" environmental group who likes to work at a grass roots level.
-
-The TRAA is a volunteer organization, governed by a formal constitution and by-laws. An elected Executive, with the guidence of the General Membership, sets the policies and direction for the TRAA.
-
-The TRAA has a history of always having a core group of active members supported by those who just want to be part of the solution. Either way, every member of the TRAA is active in their advocacy for the health of the Thames River watershed and its inhbitants.</p>
-			
-		</section>
-
-		<section class="newsletter marginSection">
-			<div class="promoText">
-				<h2>Newsletter</h2>
-				
-			</div>
-
-        <svg class="timelineVer" width="599px" height="1210px" viewBox="0 0 599 1210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg class="timelineVer" width="599px" height="1210px" viewBox="0 0 599 1210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
     <title>timeline_ver</title>
     <desc>Created with Sketch.</desc>
@@ -196,49 +110,49 @@ The TRAA has a history of always having a core group of active members supported
             </g>
             <g class="2010" transform="translate(353.000000, 210.000000)" fill="#FFAE38" font-family="Helvetica-Bold, Helvetica" font-size="40.2276" font-weight="bold">
                 <g class="Group">
-                    <text class="2010 year">
+                    <text class="2010">
                         <tspan x="0" y="39">2010</tspan>
                     </text>
                 </g>
             </g>
             <g class="2008" transform="translate(353.000000, 584.000000)" fill="#00D093" font-family="Helvetica-Bold, Helvetica" font-size="40.2276" font-weight="bold">
                 <g class="Group">
-                    <text class="2008 year">
+                    <text class="2008">
                         <tspan x="0" y="39">2008</tspan>
                     </text>
                 </g>
             </g>
             <g class="2006" transform="translate(353.000000, 946.000000)" fill="#0086CE" font-family="Helvetica-Bold, Helvetica" font-size="40.2276" font-weight="bold">
                 <g class="Group">
-                    <text class="2006 year">
+                    <text class="2006">
                         <tspan x="0" y="39">2006</tspan>
                     </text>
                 </g>
             </g>
             <g class="2011" transform="translate(105.000000, 18.000000)" fill="#00D093" font-family="Helvetica-Bold, Helvetica" font-size="40.2276" font-weight="bold">
                 <g class="Group">
-                    <text class="2011 year">
+                    <text class="2011">
                         <tspan x="0" y="39">2011</tspan>
                     </text>
                 </g>
             </g>
             <g class="2009" transform="translate(103.000000, 392.000000)" fill="#0086CE" font-family="Helvetica-Bold, Helvetica" font-size="40.2276" font-weight="bold">
                 <g class="Group">
-                    <text class="2009 year">
+                    <text class="2009">
                         <tspan x="0" y="39">2009</tspan>
                     </text>
                 </g>
             </g>
             <g class="2007" transform="translate(103.000000, 761.000000)" fill="#FFAE38" font-family="Helvetica-Bold, Helvetica" font-size="40.2276" font-weight="bold">
                 <g class="Group">
-                    <text class="2007 year">
+                    <text class="2007">
                         <tspan x="0" y="39">2007</tspan>
                     </text>
                 </g>
             </g>
             <g class="2005" transform="translate(103.000000, 1130.000000)" fill="#00D093" font-family="Helvetica-Bold, Helvetica" font-size="40.2276" font-weight="bold">
                 <g class="Group">
-                    <text class="2005 year">
+                    <text class="2005">
                         <tspan x="0" y="39">2005</tspan>
                     </text>
                 </g>
@@ -254,15 +168,15 @@ The TRAA has a history of always having a core group of active members supported
                 <g class="May-|-June" transform="translate(1.000000, 0.000000)">
                     <g class="Group">
                         <text class="May-|-June">
-                            <tspan x="-20" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf">May</a> </tspan>
-                            <tspan x="80" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf"> Jun</a></tspan>
+                            <tspan x="0" y="23">May </tspan>
+                            <tspan x="50" y="23"> | June</tspan>
                         </text>
                     </g>
                 </g>
                 <g class="November" transform="translate(0.000000, 58.000000)">
                     <g class="Group">
                         <text class="November">
-                            <tspan x="30" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf">Nov</a></tspan>
+                            <tspan x="0" y="23">November</tspan>
                         </text>
                     </g>
                 </g>
@@ -270,30 +184,30 @@ The TRAA has a history of always having a core group of active members supported
             <g class="Spring-|-Summer" transform="translate(397.000000, 1113.000000)" fill="#00D093" font-family="Helvetica" font-size="24" font-weight="normal">
                 <g class="Group">
                     <text class="Spring-|-Summer">
-                        <tspan x="-20" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf">Spring</a> </tspan>
-                         <tspan x="90" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf"> Summer</a></tspan>
+                        <tspan x="0" y="23">Spring </tspan>
+                         <tspan x="75" y="23">| Summer</tspan>
                     </text>
                 </g>
             </g>
             <g class="April" transform="translate(49.000000, 187.000000)" fill="#FFAE38" font-family="Helvetica" font-size="24" font-weight="normal">
                 <g class="Group">
                     <text class="April">
-                        <tspan x="0" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf">Apr</a></tspan>
+                        <tspan x="0" y="23">April</tspan>
                     </text>
                 </g>
             </g>
             <g class="Group" transform="translate(0.000000, 565.000000)" fill="#00D093" font-family="Helvetica" font-size="24" font-weight="normal">
                 <g class="March-|-May">
                     <text>
-                        <tspan x="20" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf">Mar</a> </tspan>
-                        <tspan x="100" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf"> May</a></tspan>
+                        <tspan x="0" y="23">March </tspan>
+                        <tspan x="75" y="23">| May</tspan>
                     </text>
                 </g>
                 <g class="June-|-December" transform="translate(16.000000, 60.000000)">
                     <g class="Group">
                         <text class="June-|-December">
-                            <tspan x="0" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf">Jun</a> </tspan>
-                            <tspan x="80" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf"> Dec</a></tspan>
+                            <tspan x="0" y="23">June </tspan>
+                            <tspan x="60" y="23">| December</tspan>
                         </text>
                     </g>
                 </g>
@@ -301,126 +215,11 @@ The TRAA has a history of always having a core group of active members supported
             <g class="October-|-November" transform="translate(384.000000, 378.000000)" fill="#0086CE" font-family="Helvetica" font-size="24" font-weight="normal">
                 <g class="Group">
                     <text class="October-|-November">
-                        <tspan x="20" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf">Oct</a></tspan>
-                        <tspan x="120" y="23"><a href="http://anglers.org/Newsletters/2011%201st%20Quarter.pdf">Nov</a></tspan>
+                        <tspan x="0" y="23">October</tspan>
+                        <tspan x="90" y="23">| November</tspan>
                     </text>
                 </g>
             </g>
         </g>
     </g>
 </svg>
-
-
-		</section>
-
-
-    <section class="executives marginSection">
-        <div class="promoText"><h2>Executives</h2></div>
-
-        <div class="name president">
-            <img src="images/potrait.svg" class="potrait" alt="potrait">
-            <h3>President</h3>
-            <h4>Rob Huber</h4>
-        </div>
-
-        <div class="boxes">
-        
-
-        <div class="name">
-            <img src="images/potrait.svg" class="potrait" alt="potrait">
-            <h3>Vice President</h3>
-            <h4>Paul Holmes</h4>
-        </div>
-
-        <div class="name">
-            <img src="images/potrait.svg" class="potrait" alt="potrait">
-            <h3>Secretary</h3>
-            <h4>Jeremy Beaton</h4>
-        </div>
-
-        <div class="name">
-             <img src="images/potrait.svg" class="potrait" alt="potrait">
-            <h3>Treasurer</h3>
-            <h4>Randy Bailey</h4>
-        </div>
-
-        <div class="name">
-             <img src="images/potrait.svg" class="potrait" alt="potrait">
-            <h3>Chairperson</h3>
-            <h4>Adam Bengen</h4>
-        </div>
-        </div>
-    </section>
-    
-    <section class="volunteer marginSection">
-        <div class="promoText"><h2>Volunteer Comittee Chairs</h2></div>
-        <div class="boxes">
-        <div class="name">
-             <h3>Trout</h3>
-            <h4>Dan Schinkelshoek</h4>
-        </div>
-
-        <div class="name">
-             <h3>Warmwater</h3>
-            <h4>Pud Hunter</h4>
-        </div>
-
-        <div class="name">
-             <h3>Public Relations</h3>
-            <h4>Rob Huber</h4>
-            <h4>Randy Bailey</h4>
-            <h4>Paul Noble</h4>
-        </div>
-
-        <div class="name">
-             <h3>Hatchery Management</h3>
-            <h4>Adam Bengen</h4>
-            <h4>Randy Bailey</h4>
-        </div>
-
-        <div class="name">
-             <h3>Habitat</h3>
-            <h4>Jeremy Beaton</h4>
-            <h4>Paul Holmes</h4>
-            <h4>Randy Bailey</h4>
-        </div>
-        </div>
-    </section>
-	</div>
-
-
-
-
-<footer>
-	<h1 class="hidden">Footer</h1>
-	<div class="footer">
-	<section class="logo logoFooter">
-			<h2 class="hidden">Logo</h2>
-			<a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
-	</section>
-	<nav>
-		<h2 class="hidden">Footer Navigation</h2>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="events.html">Events</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="shop.html">Shop</a></li>
-			<li><a href="contact.html">Contact</a></li>
-
-		</ul>
-	</nav>
-	</div>
-	<div class="socialMedia">
-		<a href="#"><img src="images/facebook.svg" alt="facebook"></a>
-	</div>
-	<div class="copyRight">
-		<h2>Copyright</h2>
-		<p>Carolinian Canada - Carolinian Canada’s diverse network advances a strategic ‘Big Picture’</p>
-	</div>
-</footer>
-
-
-<script src="js/main.js"></script>
-</body>
-</html>
