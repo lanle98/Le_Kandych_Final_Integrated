@@ -206,7 +206,6 @@ input,textarea
 }
 .title h3
 {
-	padding-right: 1%;
 	font-size: 5vw;
 	text-align: right;
 	position: relative;
@@ -680,7 +679,7 @@ margin: 20px 10px 0 10px;
 
 	.product
 	{
-		max-width: 400px;
+		max-width: 450px;
 	}
 
 	.productDescription h3
@@ -699,7 +698,7 @@ margin: 20px 10px 0 10px;
 @media screen and (min-width: 1000px) {
 		.promoHome
 		{
-			padding: 100px 0;
+			padding: 120px 0;
 		}
 
 		.logo img
