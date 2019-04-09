@@ -1,3 +1,8 @@
+body
+{
+	
+}
+
 .promoText
 {
 	margin: 0 auto;
@@ -22,6 +27,8 @@
 .boxes
 {
 	justify-content: center;
+	position: relative;
+	align-items: center;
 }
 
 .box
@@ -80,7 +87,28 @@
 	font-size: 15px;
 }
 
+.popup
+{
+	width: 800px;
+	height: 800px;
+	background: black;
+	position: absolute;
+	z-index: 1;
+	display: none;
+	left: 50%;
+	top: 50%;
+}
 
+.openPopup
+{
+	display: block;
+}
+
+.closeBtn
+{
+	font-size: 100px;
+	cursor: pointer;
+}
 
 @media screen and (min-width: 1024px) {
 	

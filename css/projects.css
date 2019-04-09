@@ -1,5 +1,5 @@
 
-header
+.promo
 {
 	background-image: url(../images/hero_projects.jpg)
 }
@@ -121,7 +121,7 @@ header
 
 	.projectHover:hover .projectDetail_toggle
 	{
-		left: -80px;
+		left: -50px;
 	}
 
 	.project
@@ -152,6 +152,12 @@ header
 		bottom: 0px;
 		padding: 40px 60px;
 		left: -100px;
+
+	}
+
+	.projectDetail_toggle p
+	{
+		opacity: 0;
 	}
 
 	.scroll
@@ -172,5 +178,10 @@ header
 		left: 0;
 		max-width: 30%;
 		transition: .5s;
+	}
+
+	.projectOpen p
+	{
+		opacity: 1;
 	}
 }

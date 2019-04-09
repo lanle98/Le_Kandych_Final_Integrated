@@ -10,16 +10,6 @@ body
 	overflow-x: hidden;
 	
 }
-header
-{
-	background: url(../images/background.jpg);
-	background-position: center;
-	background-size: cover;
-	height: 100%;
-
-
-	
-}
 
 a,h1,h2,h3,h4,li
 {
@@ -194,7 +184,11 @@ input,textarea
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 80px 0;
+	padding: 50px 0;
+	background: url(../images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100%;
 }
 .title
 {
@@ -204,7 +198,7 @@ input,textarea
 }
 .title h3
 {
-	padding-right: 5%;
+	padding-right: 1%;
 	font-size: 5vw;
 	text-align: right;
 	position: relative;
@@ -216,7 +210,7 @@ input,textarea
 	background: white;
 	padding: 10vw 1px;
 	position: relative;
-	left: 49.5%;
+	left: 49%;
 }
 .title p
 {
@@ -232,26 +226,29 @@ input,textarea
 .titlePage
 {
 	font-size: 10vw;
-	padding: 15vw;
 	font-weight: bold;
 	opacity: .8;
 }
 
-.meeting
+.activities
 {
 	max-width: 80%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 
 	
 }
 
-.meeting h3
+.activities h3
 {
 	text-align: left;
 	left: 0;
+	margin-bottom: 20px;
 }
 
-.meeting ul li
+.activities ul li
 {
 	text-align: left;
 	font-size: 2vw;
@@ -260,12 +257,13 @@ input,textarea
 	align-items: center;
 }
 
-.meeting ul li::before
+.activities ul li::before
 {
 	content: "•";
 	font-size: 2em;
 	margin-right: 10px;
 }
+
 
 
 footer
@@ -366,9 +364,9 @@ justify-content: center;
 {
 background: white;
 border-radius: 100px;
-width: 20px;
-height: 20px;
-margin: 100px 20px 0 20px;
+width: 10px;
+height: 10px;
+margin: 20px 10px 0 10px;
 
 }
 
@@ -499,6 +497,12 @@ margin: 100px 20px 0 20px;
 	font-size: 12px;
 }
 
+.signup-btn
+{
+	padding: 10px 20px;
+	font-size: 10px;
+}
+
 .productSection
 {
 	display: flex;
@@ -563,14 +567,22 @@ margin: 100px 20px 0 20px;
 	margin: 20px;
 }
 
-.slider
-	{
-		display: none;
-	}
 
 
 
 @media screen and (min-width: 768px) {
+	.aboutDescription, .projectsDescription
+	{
+		font-size: 20px;
+	}
+
+	.slider span
+	{
+		width: 20px;
+		height: 20px;
+		margin: 40px 20px 0 20px;
+	}
+
 	.logo img
 	{
 		width: 100px;
@@ -592,11 +604,6 @@ margin: 100px 20px 0 20px;
 	{
 	margin: 60px 40px;
 	
-	}
-
-	.title
-	{
-		margin-top: 100px;
 	}
 
 	
@@ -681,6 +688,18 @@ margin: 100px 20px 0 20px;
 
 
 @media screen and (min-width: 1000px) {
+		.promoHome
+		{
+			padding: 100px 0;
+		}
+
+		.logo img
+		{
+			width: 130px;
+			height: 130px;
+		}
+
+
 		.desktopNav
 		{
 			display: flex;
@@ -714,14 +733,6 @@ margin: 100px 20px 0 20px;
 			margin: 0;
 		}
 		
-
-
-		.promo
-		{
-			margin-top: 10vmax;
-		}
-
-
 		
 
 		.menuBar
@@ -775,11 +786,9 @@ margin: 100px 20px 0 20px;
 	}
 
 
-@media screen and (min-width: 1440px)
+@media screen and (min-width: 1450px)
 
 {
-
-	
 
 	.partnerIcon
 	{
