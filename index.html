@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,800" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
 </head>
 <body>
 	<header>
@@ -39,7 +40,7 @@
 				</ul>
 			</nav>
 			
-			<a class="button donate boxShadow">
+			<a class="button donate seemore boxShadow">
 				Donate
 			</a>
 		</div>
@@ -65,13 +66,14 @@
 
 				<div class="title">
 				<h2 class="hidden">Title</h2>
-				<span></span>
-				<h3>THAMES<br>
+				<span class="animation aniline"></span>
+				<div class="animation aniTitle">
+					<h3>THAMES<br>
 					RIVER<br>
 					ANGLERS<br>
 					ASSOCIATION</h3>
-				
-				<p>Dedication Today For Tomorrow</p>
+				</div>
+				<div class="animation aniParagraph"><p>Dedication Today For Tomorrow</p></div>
 				</div>
 
 
@@ -112,7 +114,7 @@
 		<h1 class="hidden">Container</h1>
 	<section class="marginSection aboutUs">
 		<div class="promoText arrow">
-			<h2>About Us</h2>
+			<a href="about.html"><h2>About Us</h2></a>
 		</div>
 		<div class="boxes aboutBoxes">
 			<div class="about box">
@@ -161,7 +163,7 @@
 
 	<section class="marginSection shop">
 		<div class="promoText arrow">
-			<h2>Shop</h2>
+			<a href="shop.html"><h2>Shop</h2></a>
 		</div>	
 		<div class="productSection">
 			<div class="product boxShadow shadowHover">
@@ -232,5 +234,6 @@
 	</footer>
 <script src="js/main.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/animation.js"></script>
 </body>
 </html>
