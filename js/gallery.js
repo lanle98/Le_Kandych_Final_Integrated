@@ -1,6 +1,6 @@
 (()=>{
 	console.log("gallery")
-	let		eventBtn	=	document.querySelectorAll(".eventTop .seemore")
+	let		eventBtn	=	document.querySelectorAll(".eventTop .seemoreEvent")
 			popUp 		=	document.querySelector(".popup")
 			closeBtn	=	document.querySelector(".closeBtn")
 			contentImg	=	document.querySelector(".contentImg img")

@@ -7,7 +7,7 @@
 	function titleAnimation(){
 		let Tline = new TimelineLite()
 
-			Tline.to(line,1.5,{
+			Tline.to(line,1,{
 			height:"20vw"
 		})
 

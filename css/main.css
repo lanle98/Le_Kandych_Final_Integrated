@@ -123,7 +123,14 @@ input,textarea
 {
 	display: flex;
 	flex-direction: column;
+	cursor: pointer;
 }
+
+.menuBar:active
+{
+	filter: grayscale(1);
+}
+
 .menuBar span
 {
 	margin: 2px;
@@ -230,7 +237,6 @@ input,textarea
 	text-align: left;
 	left: 0;
 	margin-bottom: 20px;
-	opacity: 0;
 }
 
 .activities ul li
@@ -538,8 +544,8 @@ cursor: pointer;
 
 .seemore
 {
-	padding: 15px 30px;
-	font-size: 12px;
+	padding: 20px 40px;
+	font-size: 15px;
 }
 
 .signup-btn
@@ -580,15 +586,16 @@ cursor: pointer;
 	padding: 20px;
 }
 
-.productDescription h4
+.productDescription h3
 {
 	color: #2BD094;
 	text-align: left;
 	font-weight: normal;
 	margin: 10px 0;
+	font-size: 15px;
 }
 
-.productDescription h3
+.productDescription h4
 {
 	color: #2BD094;
 	text-align: left;
@@ -744,7 +751,7 @@ cursor: pointer;
 		max-width: 450px;
 	}
 
-	.productDescription h3
+	.productDescription h4
 	{
 		font-size: 40px;
 	}
