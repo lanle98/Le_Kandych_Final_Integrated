@@ -8,6 +8,7 @@ body
 {
 	background:#fafafa;
 	overflow-x: hidden;
+
 	
 }
 
@@ -98,16 +99,11 @@ border-radius: 5px;
 	background: linear-gradient(180deg, rgba(255,194,104,1) 0%, rgba(255,173,52,1) 100%);
 	color: white;
 	outline: none;
-	text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.1);
 	
 }
 
 
-	.donate
-{
-	padding: 20px 60px;
-	font-size: 18px;
-}
 
 
 input,textarea
@@ -127,7 +123,14 @@ input,textarea
 {
 	display: flex;
 	flex-direction: column;
+	cursor: pointer;
 }
+
+.menuBar:active
+{
+	filter: grayscale(1);
+}
+
 .menuBar span
 {
 	margin: 2px;
@@ -147,14 +150,14 @@ input,textarea
 	right: -100%;
 	transition: .5s;
 	height: 100vh;
-/*	display: none;*/
+	visibility: hidden;
 
 }
 
 .mobileNav_open
 {
 	right: 0;
-	display: flex;
+	visibility: visible;
 }
 
 .mobileNav ul
@@ -199,6 +202,7 @@ input,textarea
 	background-position: center;
 	background-size: cover;
 	height: 100%;
+
 }
 .title
 {
@@ -206,31 +210,8 @@ input,textarea
 	align-items: center;
 	min-width: 100vw;
 }
-.title h3
-{
-	font-size: 5vw;
-	text-align: right;
-	position: relative;
-	left: 10%;
-	font-weight: 800;
-}
-.title span
-{
-	background: white;
-	padding: 10vw 1px;
-	position: relative;
-	left: 49%;
-}
-.title p
-{
-	width: 40%;
-	text-align: left;
-	font-size: 3vw;
-	flex-wrap: wrap;
-	position: absolute;
-	left: 52.5%;
-	font-weight: 200;
-}
+
+
 
 .titlePage
 {
@@ -252,6 +233,7 @@ input,textarea
 
 .activities h3
 {
+	font-size: 5vw;
 	text-align: left;
 	left: 0;
 	margin-bottom: 20px;
@@ -354,6 +336,65 @@ nav li
 
 
 /*Home Page Starts Here*/
+
+
+.animation
+{
+
+	overflow: hidden;
+}
+
+.aniTitle
+{
+	left: 10%;
+	position: relative;
+}
+
+.aniParagraph
+{
+		width: 40%;
+	font-size: 3vw;
+	flex-wrap: wrap;
+	position: absolute;
+	left: 52%;
+	
+}
+
+
+
+.animation h3
+{
+	font-size: 5vw;
+	text-align: right;
+	position: relative;
+	font-weight: 800;
+	left: 101%;
+}
+
+.animation p
+{
+	position: relative;
+	right: 100%;
+	text-align: left;
+	font-weight: 200;
+
+}
+
+
+.aniline
+{
+	background: white;
+	height: 0vw;
+	width: 1px;
+	position: relative;
+	left: 49%;
+}
+
+
+
+
+
+
 
 .slideShow
 {
@@ -503,8 +544,8 @@ cursor: pointer;
 
 .seemore
 {
-	padding: 15px 30px;
-	font-size: 12px;
+	padding: 20px 40px;
+	font-size: 15px;
 }
 
 .signup-btn
@@ -545,15 +586,16 @@ cursor: pointer;
 	padding: 20px;
 }
 
-.productDescription h4
+.productDescription h3
 {
 	color: #2BD094;
 	text-align: left;
 	font-weight: normal;
 	margin: 10px 0;
+	font-size: 15px;
 }
 
-.productDescription h3
+.productDescription h4
 {
 	color: #2BD094;
 	text-align: left;
@@ -709,7 +751,7 @@ cursor: pointer;
 		max-width: 450px;
 	}
 
-	.productDescription h3
+	.productDescription h4
 	{
 		font-size: 40px;
 	}

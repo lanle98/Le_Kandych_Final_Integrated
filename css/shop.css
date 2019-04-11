@@ -25,7 +25,17 @@
 	line-height: 1.5em;
 }
 
+.video
+{
+	display: flex;
+	justify-content: center;
+}
 
+.video video
+{
+	width: 90%;
+	height: 90%;
+}
 
 @media screen and (min-width: 768px) {
 	
