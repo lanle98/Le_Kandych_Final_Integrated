@@ -82,6 +82,8 @@
 
 
 
+
+
 .projectDetail_toggle
 {
 	background: #fafafa;
@@ -184,15 +186,22 @@
 }
 
 
-.data
+.blue
 {
 	background: #3A85CA;
 	z-index: 1;
 }
 
-.links
+.green
 {
 	background: #38CF95;
+}
+
+.links h4
+{
+	font-size: 30px;
+	color: #3A85CA;
+	margin: 40px;
 }
 
 @media screen and (min-width: 768px) {
