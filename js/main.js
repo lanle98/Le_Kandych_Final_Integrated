@@ -15,27 +15,14 @@ let bar			= document.querySelectorAll('#bar')
 	articles	= document.querySelectorAll(".articles")
 
 
+
+//menuBar for mobile 
 menuBar.addEventListener('click', function(){
 	mobileNav.classList.toggle("mobileNav_open")
 	
 
 	
 })
-
-
-// timeline for About page
-// oval.forEach((e,index)=> e.addEventListener("click", function(){
-// 	if(bar[index].style.display == "block")
-// 	{
-// 		bar[index].style.display = "none"
-// 	}
-// 	else
-// 	{
-// 		bar[index].style.display = "block"
-// 	}
-	
-// }))
-
 
 
 // open projects for Projects Page
@@ -47,7 +34,7 @@ project.forEach((e,index)=>e.addEventListener("click",function()
 
 }))
 
-
+// Traa data chart toggle
 traa.forEach((e,index)=>e.addEventListener("click",function()
 {	
 	articles[index].classList.toggle("articlesToggle")
