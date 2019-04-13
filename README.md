@@ -1,5 +1,5 @@
 # Welcome to the TRAA!  
-(Thames River Anglers Associations)  
+# (Thames River Anglers Associations)  
 
 *Responsive Client Based Website.  
  The old and existing website: http://anglers.org*  
