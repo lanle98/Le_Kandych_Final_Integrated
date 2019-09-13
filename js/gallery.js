@@ -163,7 +163,7 @@ All the proceeds went to benefit the TRAA and our projects.`
     });
   });
 
-  // event click for closebtn
+  // event click for closebtn on popup
   closeBtn.addEventListener("click", function() {
     popUp.classList.toggle("openPopup");
   });
