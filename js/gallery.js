@@ -197,7 +197,7 @@ All the proceeds went to benefit the TRAA and our projects.`]
 
 	//close button function
 	function closePopup(){
-		popUp.classList.remove("openPopup")
+		
 	}
 
 
